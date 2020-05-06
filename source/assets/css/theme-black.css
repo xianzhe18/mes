@@ -1,0 +1,33 @@
+*{
+    background-color: transparent;
+}
+body, form, .block-content{
+    background-color: black;
+    color: white;
+}
+.block-header{
+    background-color: black;
+    border-bottom: solid 1px gray;
+}
+.user-contact{
+    background-color: transparent;
+    position: relative;
+}
+.user-contact.disabled{
+    background-color: #04376b;
+    cursor: not-allowed;
+}
+.user-contact:hover, .user-contact.active-user{
+    background-color: #222;
+    cursor: pointer;
+}
+.user-contact .block-header, .user-contact .block-content{
+    background-color: transparent;
+}
+.btn i{
+    background-color: transparent;
+}
+#message-panel{
+    background-color: black;
+    color: white;
+}
